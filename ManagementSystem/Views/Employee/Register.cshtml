@@ -1,0 +1,49 @@
+﻿@model ManagementSystem.Models.ModelEmployee
+
+<h1 class="display-4">Cadastro de Colaboradores</h1>
+
+<div class="mb-3">
+    <form asp-controller="Employee" asp-action="Create" method="post">
+        <div class="mb-3">
+            <label for="inputName" class="form-label">Nome do Colaborador</label>
+            <input type="text" asp-for="Name" class="form-control" id="inputName" name="Name" placeholder="Digite o nome do colaborador">
+            @Html.ValidationMessageFor(x => x.Name)
+        </div>
+        <div class="mb-3">
+            <label for="inputUnitId" class="form-label">Unidade</label>
+            <select asp-for="UnitId" class="form-select" id="inputUnitId" name="UnitId">
+                <option value="">Selecione a unidade</option>
+                @foreach (var unit in ViewBag.UnitList)
+                {
+                    <option value="@unit.UnitId">@unit.Name</option>
+                }
+            </select>
+            @Html.ValidationMessageFor(x => x.Unit)
+        </div>
+        <div class="mb-3">
+            <label for="inputUserId" class="form-label">Usuário</label>
+            <select asp-for="UserId" class="form-select" id="inputUserId" name="UserId">
+                <option value="">Selecione o usuário</option>
+                @foreach (var user in ViewBag.UserList)
+                {
+                    <option value="@user.UserId">@user.Username</option>
+                }
+            </select>
+            @Html.ValidationMessageFor(x => x.User)
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </form>
+    <br />
+    @if (TempData["MessageSucess"] != null)
+    {
+        <div id="successMessage" class="alert alert-success" role="alert">
+            @TempData["MessageSucess"]
+        </div>
+    }
+    @if (TempData["MessageErro"] != null)
+    {
+        <div id="errorMessage" class="alert alert-danger" role="alert">
+            @TempData["MessageErro"]
+        </div>
+    }
+</div>

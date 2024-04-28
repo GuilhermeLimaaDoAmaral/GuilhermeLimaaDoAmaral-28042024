@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.field-validation-error{
+    color:#f00
+}
+
+.form-outline {
+    width: 300px; /* Define a largura desejada */
+    margin-bottom: 15px; /* Adiciona um espaço entre os campos */
+}

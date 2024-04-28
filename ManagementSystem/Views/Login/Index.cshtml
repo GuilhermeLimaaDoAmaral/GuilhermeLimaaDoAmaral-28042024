@@ -1,0 +1,55 @@
+﻿@model ModelUser
+@{
+    ViewData["Title"] = "Login";
+    Layout = "LayoutLogin";
+}
+
+<h1 class="display-4">Login</h1>
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <form asp-controller="Login" asp-action="SignIn" method="post">
+                    <div class="mb-3">
+                        <label for="inputUsername" class="form-label">Login</label>
+                        <input type="text" asp-for="Username" class="form-control" id="Username" placeholder="Digite seu nome de Login">
+                        @Html.ValidationMessageFor(x=> x.Username)
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Senha</label>
+                        <input type="password" asp-for="Password" class="form-control" id="inputPassword" name="Password" placeholder="Digite a senha do usuário">
+                        @Html.ValidationMessageFor(x=> x.Password)
+                    </div>
+
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                    <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                            style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                            Entrar
+                    </button>
+                        <button role="button" asp-action="Register" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                            Registrar-se
+                        </button>
+                    </div>
+                    <br />
+                    @if (TempData["MessageSucess"] != null)
+                    {
+                        <div id="successMessage" class="alert alert-success" role="alert">
+                            @TempData["MessageSucess"]
+                        </div>
+                    }
+                    @if (TempData["MessageErro"] != null)
+                    {
+                        <div id="errorMessage" class="alert alert-danger" role="alert">
+                            @TempData["MessageErro"]
+                        </div>
+                    }
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

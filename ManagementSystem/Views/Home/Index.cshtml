@@ -1,0 +1,72 @@
+﻿@model ModelUser
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    /* Style for checkboxes */
+    #features input[type="checkbox"] {
+        display: none; /* Hide the default checkbox */
+    }
+
+    /* Style for checkbox labels */
+    #features label {
+        display: block;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+    /* Style for checkbox background when checked */
+    #features input[type="checkbox"] + label::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        border: 2px solid #000; /* Border color of the checkbox */
+        background-color: white; /* Background color of the checkbox */
+        vertical-align: middle;
+    }
+
+    /* Style for checked checkbox */
+    #features input[type="checkbox"]:checked + label::before {
+        background-color: #008000; /* Background color of the checked checkbox */
+    }
+</style>
+
+<div class="jumbotron">
+    <h1 class="display-4">Olá @Model.Username, Bem vindo!</h1>
+    <p class="lead">Este é um projeto de backend que implementa um Sistema de Gestão de Colaboradores e Unidades, utilizando o PostgreSQL como banco de dados.</p>
+    <hr class="my-4">
+    <p>Funcionalidades:</p>
+    <ul id="features">
+        <li><input type="checkbox" id="userRegistrationCheckbox" disabled> <label for="userRegistrationCheckbox">Cadastro de Usuário</label></li>
+        <li><input type="checkbox" id="userUpdateCheckbox" disabled> <label for="userUpdateCheckbox">Atualização de Informações de Usuários</label></li>
+        <li><input type="checkbox" id="userListingCheckbox" disabled> <label for="userListingCheckbox">Listagem de Usuários</label></li>
+        <li><input type="checkbox" id="employeeRegistrationCheckbox" disabled> <label for="employeeRegistrationCheckbox">Cadastro de Colaboradores</label></li>
+        <li><input type="checkbox" id="employeeUpdateCheckbox" disabled> <label for="employeeUpdateCheckbox">Atualização de Informações de Colaboradores</label></li>
+        <li><input type="checkbox" id="employeeRemovalCheckbox" disabled> <label for="employeeRemovalCheckbox">Remoção de Colaboradores</label></li>
+        <li><input type="checkbox" id="employeeListingCheckbox" disabled> <label for="employeeListingCheckbox">Listagem de Colaboradores</label></li>
+        <li><input type="checkbox" id="unitRegistrationCheckbox" disabled> <label for="unitRegistrationCheckbox">Cadastro de Unidades</label></li>
+        <li><input type="checkbox" id="unitUpdateCheckbox" disabled> <label for="unitUpdateCheckbox">Atualização de Informações de Unidades</label></li>
+        <li><input type="checkbox" id="unitListingCheckbox" disabled> <label for="unitListingCheckbox">Listagem de Unidades</label></li>
+        <li><input type="checkbox" id="tokenBearerAuthenticationCheckbox" disabled> <label for="tokenBearerAuthenticationCheckbox">Autenticação via Bearer token</label></li>
+        <li><input type="checkbox" id="unitTestApiCheckbox" disabled> <label for="unitTestApiCheckbox">Teste de API via Postman https://localhost:7015/v1/login </label></li>
+        <li><input type="checkbox" id="dockerCheckbox" disabled> <label for="dockerCheckbox">Docker para criação do banco de dados </label></li>
+    </ul>
+    <a class="btn btn-primary btn-lg" href="https://github.com/devrte/technical-evaluation" role="button">Leia mais</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var checkboxes = $('#features input[type="checkbox"]');
+            var index = 0;
+
+            setInterval(function () {
+                checkboxes.eq(index).prop('checked', true); // Check the current checkbox
+                index = (index + 1) % checkboxes.length; // Update index for the next checkbox
+            }, 500); // Update every 0.5 seconds
+        });
+    </script>
+}

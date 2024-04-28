@@ -1,0 +1,34 @@
+﻿@model ManagementSystem.Models.ModelUnit
+
+<h1 class="display-4"> Cadastro de Unidades</h1>
+
+<div class="mb-3">
+    <form asp-controller="Unit" asp-action="Create" method="post">
+        <div class="mb-3">
+            <label for="inputName" class="form-label">Nome da Unidade</label>
+            <input type="text" asp-for="Name" class="form-control" id="inputName" name="Name" placeholder="Digite o nome da unidade">
+            @Html.ValidationMessageFor(x=> x.Name)
+        </div>
+        <div class="mb-3">
+            <label for="inputIsActive" class="form-label">Status</label>
+            <select class="form-select" asp-for="IsActive" id="inputIsActive" name="IsActive">
+                <option value="true">Ativo</option>
+                <option value="false">Inativo</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </form>
+
+    @if (TempData["MessageSucess"] != null)
+    {
+        <div id="successMessage" class="alert alert-success" role="alert">
+            @TempData["MessageSucess"]
+        </div>
+    }
+    @if (TempData["MessageErro"] != null)
+    {
+        <div id="errorMessage" class="alert alert-danger" role="alert">
+            @TempData["MessageErro"]
+        </div>
+    }
+</div>

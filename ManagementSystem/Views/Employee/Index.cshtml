@@ -1,0 +1,81 @@
+﻿@model List<ModelEmployee>
+
+@{
+    ViewData["Title"] = "Lista de Colaboradores";
+}
+
+<h1 class="display-4">Cadastro de Colaboradores</h1>
+
+<div class="mb-3">
+    <a class="btn btn-primary" role="button" asp-action="Register">Cadastrar</a>
+</div>
+
+<div id="toast" class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+        <div class="toast-body">
+            Colaborador criado com sucesso!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+</div>
+
+<div id="failure" class="toast align-items-center text-white bg-danger border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+        <div class="toast-body">
+            Falha ao criar o colaborador!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+</div>
+
+<br />
+@if (TempData["MessageSucess"] != null)
+{
+    <div id="successMessage" class="alert alert-success" role="alert">
+        @TempData["MessageSucess"]
+    </div>
+}
+@if (TempData["MessageErro"] != null)
+{
+    <div id="errorMessage" class="alert alert-danger" role="alert">
+        @TempData["MessageErro"]
+    </div>
+}
+
+<h1 class="display-4">Lista de Colaboradores</h1>
+
+
+<table class="table" id="employeeTable">
+    <thead>
+        <tr>
+            <th scope="col">Codigo</th>
+            <th scope="col">Colaborador</th>
+            <th scope="col">Unidade</th>
+            <th scope="col">Usuário</th>
+            <th scope="col">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var employee in Model)
+            {
+                <tr>
+                    <td>@employee.EmployeeId</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.UnitId</td>
+                    <td>@employee.UserId</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a href="@Url.Action("EditEmployee", "Employee", new { id = employee.EmployeeId })" class="btn btn-primary">Editar</a>
+                            <form asp-controller="Employee" asp-action="Delete" method="post">
+                                <input type="hidden" name="id" value="@employee.EmployeeId" />
+                                <button type="submit" class="btn btn-danger">Excluir</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

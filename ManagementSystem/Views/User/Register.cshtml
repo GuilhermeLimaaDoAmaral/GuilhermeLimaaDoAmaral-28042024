@@ -1,0 +1,40 @@
+﻿@model ModelUser
+
+<h1 class="display-4"> Cadastro de usuários</h1>
+
+<div class="mb-3">
+    <form asp-controller="User" asp-action="Create" method="post">
+        <div class="mb-3">
+            <label for="inputUsername" class="form-label">Login</label>
+            <input type="text" asp-for="Username" class="form-control" id="inputUsername" name="Username" placeholder="Digite o login do usuário">
+            @Html.ValidationMessageFor(x=> x.Username)
+        </div>
+        <div class="mb-3">
+            <label for="inputPassword" class="form-label">Senha</label>
+            <input type="password" asp-for="Password" class="form-control" id="inputPassword" name="Password" placeholder="Digite a senha do usuário">
+            @Html.ValidationMessageFor(x=> x.Password)
+        </div>
+        <div class="mb-3">
+            <label for="inputIsActive" class="form-label">Status</label>
+            <select class="form-select" asp-for="IsActive" id="inputIsActive" name="IsActive">
+                <option value="true">Ativo</option>
+                <option value="false">Inativo</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>>
+    </form>
+    <br/>
+    @if (TempData["MessageSucess"] != null)
+    {
+        <div id="successMessage" class="alert alert-success" role="alert">
+            @TempData["MessageSucess"]
+        </div>
+    }
+    @if (TempData["MessageErro"] != null)
+    {
+        <div id="errorMessage" class="alert alert-danger" role="alert">
+            @TempData["MessageErro"]
+        </div>
+    }
+    
+</div>
