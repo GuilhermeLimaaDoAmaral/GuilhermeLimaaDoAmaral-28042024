@@ -7092,11 +7092,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mvc\\ManagementSystem\\ManagementSystemTests\\ManagementSystemTests.csproj",
+      "projectUniqueName": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystemTests\\ManagementSystemTests.csproj",
       "projectName": "ManagementSystemTests",
-      "projectPath": "D:\\Mvc\\ManagementSystem\\ManagementSystemTests\\ManagementSystemTests.csproj",
+      "projectPath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystemTests\\ManagementSystemTests.csproj",
       "packagesPath": "C:\\Users\\GuilhermeAmaral\\.nuget\\packages\\",
-      "outputPath": "D:\\Mvc\\ManagementSystem\\ManagementSystemTests\\obj\\",
+      "outputPath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystemTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GuilhermeAmaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7113,8 +7113,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj": {
-              "projectPath": "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj"
+            "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj": {
+              "projectPath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj"
             }
           }
         }

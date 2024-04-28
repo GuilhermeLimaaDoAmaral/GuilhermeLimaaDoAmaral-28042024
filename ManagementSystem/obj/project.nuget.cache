@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ZzXZD4RQM2HCyivZ62ec3YNyvt6UNl/3ObaTdQgEU3LAyxMyvxR2bgQdref97+g2SSB5m/KXQfcqTvvwRQAww==",
+  "dgSpecHash": "IYx6i16HN7kqZozggleejtw/c8DLLmywsEQDVpF62qyTC0hAlREKZhtMyP1Pk4FtKkNwgHYSmMT9Dv6kjRUz4w==",
   "success": true,
-  "projectFilePath": "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GuilhermeAmaral\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\GuilhermeAmaral\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

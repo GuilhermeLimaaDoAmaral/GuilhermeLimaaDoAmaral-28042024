@@ -9,93 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ManagementSystem
 build_property.RootNamespace = ManagementSystem
-build_property.ProjectDir = D:\Mvc\ManagementSystem\ManagementSystem\
+build_property.ProjectDir = C:\Users\GuilhermeAmaral\Documents\Bak\GuilhermeLimaaDoAmaral-28042024\ManagementSystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Mvc\ManagementSystem\ManagementSystem
+build_property.MSBuildProjectDirectory = C:\Users\GuilhermeAmaral\Documents\Bak\GuilhermeLimaaDoAmaral-28042024\ManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Employee/EditEmployee.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Employee/EditEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdEVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Employee/Index.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Employee/Register.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Employee/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Home/Index.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Home/Privacy.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Login/Index.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Login/Register.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Shared/Error.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Shared/LayoutLogin.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Shared/LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Unit/EditUnit.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Unit/EditUnit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxFZGl0VW5pdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Unit/Index.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Unit/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Unit/Register.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Unit/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/User/EditUser.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/User/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/User/Index.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/User/Register.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/_ViewImports.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/_ViewStart.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mvc/ManagementSystem/ManagementSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/GuilhermeAmaral/Documents/Bak/GuilhermeLimaaDoAmaral-28042024/ManagementSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k76ghj5gli

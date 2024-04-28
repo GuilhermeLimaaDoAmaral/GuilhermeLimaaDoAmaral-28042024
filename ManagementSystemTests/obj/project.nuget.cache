@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D1KfgYTyF6aBOxfu7ZBjTXNtEiAipZONfIe8G40B2xaYmTxAOxjCPuQs1mEtMyKIt2rDCO/Y5MWXYwZ7pFUTrg==",
+  "dgSpecHash": "LsEaixKoJLRk4dg6QaE3+ml7AxNFxCOgM+MpMamiVrf4IKXQkuUXweaEsqkB879ad/Btyz+ebFGmVdUi59jTFw==",
   "success": true,
-  "projectFilePath": "D:\\Mvc\\ManagementSystem\\ManagementSystemTests\\ManagementSystemTests.csproj",
+  "projectFilePath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystemTests\\ManagementSystemTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GuilhermeAmaral\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\GuilhermeAmaral\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

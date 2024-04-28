@@ -50,7 +50,6 @@ namespace ManagementSystem.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    NotFound();
                     modelUser.IsActive = true;
                     _userService.Create(modelUser);
                     return View("Index"); 

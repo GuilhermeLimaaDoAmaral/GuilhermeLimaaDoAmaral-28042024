@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj": {}
+    "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj": {}
   },
   "projects": {
-    "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj": {
+    "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj",
         "projectName": "ManagementSystem",
-        "projectPath": "D:\\Mvc\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj",
+        "projectPath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\ManagementSystem.csproj",
         "packagesPath": "C:\\Users\\GuilhermeAmaral\\.nuget\\packages\\",
-        "outputPath": "D:\\Mvc\\ManagementSystem\\ManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\GuilhermeAmaral\\Documents\\Bak\\GuilhermeLimaaDoAmaral-28042024\\ManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GuilhermeAmaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
